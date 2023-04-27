@@ -1,0 +1,22 @@
+{
+  "name": "Toolkit",
+  "version": "1.0.0",
+  "description": "A toolkit for SapphireJS",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "run-p watch start",
+    "build": "esbuild",
+    "watch": "esbuild --bundle --watch",
+    "start": "node src/main.js"
+  },
+  "author": "Akanixon",
+  "type": "module",
+  "dependencies": {
+    "@sapphire/framework": "^4.4.1",
+    "@sapphire/plugin-api": "^5.0.3",
+    "config": "^3.3.9",
+    "discord-api-types": "^0.37.40",
+    "discord.js": "^14.9.0",
+    "nanoid": "^4.0.2"
+  }
+}
